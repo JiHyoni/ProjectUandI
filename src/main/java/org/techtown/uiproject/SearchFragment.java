@@ -16,10 +16,8 @@ public class SearchFragment extends Fragment { //조회하기 탭의 부분화�
     RecyclerView recyclerView;
     PersonAdapter adapter;
     TextView textView;
-    public SearchFragment() {
-        // Required empty public constructor
+    public SearchFragment() {// Required empty public constructor
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
