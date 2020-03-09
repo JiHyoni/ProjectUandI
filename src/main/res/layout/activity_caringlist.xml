@@ -10,21 +10,22 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.google.android.material.tabs.TabLayout
-        android:layout_height="70dp"
+        android:id="@+id/tab"
         android:layout_width="match_parent"
-        app:tabSelectedTextColor="#383636"
-        app:tabIndicatorColor="#616B70"
-        android:id="@+id/tab">
+        android:layout_height="70dp"
+        app:tabBackground="@color/colorPrimaryDark"
+        app:tabIndicatorColor="@color/tab"
+        app:tabSelectedTextColor="#383636">
 
         <com.google.android.material.tabs.TabItem
-            android:layout_height="wrap_content"
+            android:id="@+id/tab_item1"
             android:layout_width="wrap_content"
-            android:id="@+id/tab_item1"/>
+            android:layout_height="wrap_content" />
 
         <com.google.android.material.tabs.TabItem
-            android:layout_height="wrap_content"
+            android:id="@+id/tab_item2"
             android:layout_width="wrap_content"
-            android:id="@+id/tab_item2"/>
+            android:layout_height="wrap_content" />
 
     </com.google.android.material.tabs.TabLayout>
 

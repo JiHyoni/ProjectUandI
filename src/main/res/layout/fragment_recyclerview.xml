@@ -8,12 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#EAE6A8"
+        android:layout_marginBottom="10dp"
         android:text="새로고침" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="37dp"
         android:gravity="center"
 
         android:textSize="20sp" />
@@ -21,6 +22,6 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="638dp"
+        android:layout_height="match_parent"
         android:scrollbars="vertical" />
 </LinearLayout>

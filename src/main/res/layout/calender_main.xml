@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.CalendarView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendarNS="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/calendar_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    calendarNS:dateFormat="MMMM yyyy">
+</androidx.constraintlayout.widget.CalendarView>
