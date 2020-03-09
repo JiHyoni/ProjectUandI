@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color> <!--액션바(타이틀바)의 색상 결정-->
+    <color name="colorPrimaryDark">#FFFFFF</color> <!--상태바(시간 및 LTE보여주는 바)의 색상 결정-->
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorSplash">#FFFFCC00</color>
+    <color name="colorButton">#F0E8C8</color>
+</resources>

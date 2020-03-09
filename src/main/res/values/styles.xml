@@ -1,0 +1,24 @@
+<!--theme은 스타일과 관련된 부분이므로 style.xml에 생성한다. -->
+<resources>
+
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+
+</style>
+    <!--아래는 에니메이션 관련 코드-->
+<style name="Splash" parent="AppTheme">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowBackground">@drawable/splash</item>
+
+    <!--커스텀 바 관련 코드-->
+
+
+</style>
+</resources>
