@@ -25,7 +25,6 @@
         <LinearLayout
             android:layout_width="390dp"
             android:layout_height="wrap_content"
-            android:gravity="center|top"
             android:orientation="vertical">
 
             <TextView
@@ -33,6 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="이름"
+                android:paddingLeft="120dp"
                 android:textSize="18sp" />
 
             <TextView
@@ -40,6 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="번호"
+                android:paddingLeft="120dp"
                 android:textSize="18sp" />
 
             <TextView
@@ -47,13 +48,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="주소"
+                android:paddingLeft="120dp"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
+                android:paddingLeft="120dp"
                 android:text="비상 연락처"
                 android:textSize="18sp" />
 
