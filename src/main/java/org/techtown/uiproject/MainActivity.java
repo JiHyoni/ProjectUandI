@@ -1,5 +1,4 @@
 package org.techtown.uiproject;
-
 import androidx.appcompat.widget.Toolbar;
 import android.graphics.Color;
 import android.os.Build;
@@ -13,8 +12,6 @@ import android.view.Menu;
 import android.widget.Button;
 import android.content.Intent;
 
-
-
 public class MainActivity extends AppCompatActivity {
     //ActionBar abar;
     ImageButton button2; //돌봄리스트 = 케어링 리스트
@@ -22,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     ImageButton button4; //행사안내
     ImageButton button3; //캘린더
     ImageButton button1; //마이페이지
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,6 +87,3 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     }
-
-
-

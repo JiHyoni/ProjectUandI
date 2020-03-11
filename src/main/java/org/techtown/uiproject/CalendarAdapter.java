@@ -233,93 +233,48 @@ dlg.show();
 
 
         if (columnIndex == 0) {
-
             itemView.setTextColor(Color.RED);
-
         }
-
         else {
-
             itemView.setTextColor(Color.BLACK);
-
         }
-
-
-
         // set background color
-
         if (position == getSelectedPosition()) {
-
             itemView.setBackgroundColor(Color.YELLOW);
-
         } else {
-
             itemView.setBackgroundColor(Color.WHITE);
-
         }
-
-
-
         return itemView;
-
     }
-
     public static int getFirstDayOfWeek() {
-
         int startDay = Calendar.getInstance().getFirstDayOfWeek();
-
         if (startDay == Calendar.SATURDAY) {
-
             return Time.SATURDAY;
-
         } else if (startDay == Calendar.MONDAY) {
-
             return Time.MONDAY;
-
         } else {
-
             return Time.SUNDAY;
-
         }
-
     }
-
     private int getMonthLastDay(int year, int month){
-
         switch (month) {
-
             case 0:
-
             case 2:
-
             case 4:
-
             case 6:
-
             case 7:
-
             case 9:
-
             case 11:
-
                 return (31);
-
-
-
             case 3:
-
             case 5:
-
             case 8:
-
             case 10:
-
                 return (30);
 
 
 
             default:
-
                 if(((year%4==0)&&(year%100!=0)) || (year%400==0) ) {
 
                     return (29);   // 2월 윤년계산
@@ -339,9 +294,6 @@ dlg.show();
         this.selectedPosition = selectedPosition;
 
     }
-
-
-
     /**
 
      * get selected row
@@ -351,9 +303,6 @@ dlg.show();
      * @return
 
      */
-
     public int getSelectedPosition() {
-
         return selectedPosition; }
-
 }
