@@ -1,12 +1,7 @@
 package org.techtown.uiproject;
-import android.content.Context;
-import android.content.ReceiverCallNotAllowedException;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +10,6 @@ import android.widget.EditText;
 
 public class addFragment extends Fragment { //추가하기 탭의 부분화면
     EditText editText, editText1, editText2, editText3;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -30,7 +24,6 @@ public class addFragment extends Fragment { //추가하기 탭의 부분화면
                 editText1 = view.findViewById(R.id.editNum);
                 editText2 = view.findViewById(R.id.editAdress);
                 editText3 = view.findViewById(R.id.editHelpnum);
-
             }
         });
         return view;

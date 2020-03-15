@@ -2,18 +2,12 @@ package org.techtown.uiproject;
 import androidx.appcompat.widget.Toolbar;
 import android.graphics.Color;
 import android.os.Build;
-import android.service.notification.StatusBarNotification;
-import android.view.Menu;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Menu;
-import android.widget.Button;
 import android.content.Intent;
-
 public class MainActivity extends AppCompatActivity {
-    //ActionBar abar;
     ImageButton button2; //돌봄리스트 = 케어링 리스트
     ImageButton button5; //영상통화
     ImageButton button4; //행사안내

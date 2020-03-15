@@ -11,7 +11,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 public class SearchFragment extends Fragment { //조회하기 탭의 부분화면
     RecyclerView recyclerView;
     PersonAdapter adapter;
@@ -31,7 +30,6 @@ public class SearchFragment extends Fragment { //조회하기 탭의 부분화�
 
         adapter = new PersonAdapter();
         recyclerView.setAdapter(adapter);
-
 
         Button button = rootView.findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {

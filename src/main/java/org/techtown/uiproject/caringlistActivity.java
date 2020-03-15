@@ -2,14 +2,9 @@ package org.techtown.uiproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageButton;
-
 import com.google.android.material.tabs.TabLayout;
-
 import java.util.ArrayList;
 
 public class caringlistActivity extends AppCompatActivity { //케어링리스트 클릭시 실행되는 main
