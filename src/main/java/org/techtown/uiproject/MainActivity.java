@@ -28,11 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
         // 툴바의 마이페이지
         button1 = findViewById(R.id.imageButton1); //마이페이지 버튼
-
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,mypageActivity.class );
+                Intent intent = new Intent(MainActivity.this, mypageActivity.class );
                 startActivity(intent);
             }
         });
@@ -61,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         button4 = findViewById(R.id.imageButton4); //행사안내 버튼
-
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

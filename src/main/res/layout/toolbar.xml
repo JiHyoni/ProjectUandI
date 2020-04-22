@@ -23,7 +23,6 @@
         android:layout_centerVertical="true"
         android:layout_gravity="right"
         android:background="@drawable/mypagebtn1"
-
         />
 
 

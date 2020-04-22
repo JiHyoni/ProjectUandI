@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".mypageActivity"></activity>
+        <activity android:name=".DashBoard"/>
+        <activity android:name=".Register"/>
         <activity android:name=".eventActivity" />
         <activity android:name=".calenderActivity" />
         <activity android:name=".videocallActivity" />
@@ -19,7 +21,6 @@
             android:theme="@style/Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

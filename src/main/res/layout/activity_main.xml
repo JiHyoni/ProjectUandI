@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#FDFDFD"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -35,7 +35,8 @@
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/listimgbtn2" />
+        app:srcCompat="@drawable/listimgbtn2"
+        android:layout_marginLeft="16dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -50,7 +51,9 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/calenderimgbtn3" />
+        app:srcCompat="@drawable/calenderimgbtn3"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="16dp" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -64,7 +67,9 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/videocallimgbtn2" />
+        app:srcCompat="@drawable/videocallimgbtn2"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="16dp" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -79,7 +84,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.119"
-        app:srcCompat="@drawable/eventalertimgbtn3" />
+        app:srcCompat="@drawable/eventalertimgbtn3"
+        android:layout_marginLeft="16dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

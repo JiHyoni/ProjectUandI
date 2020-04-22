@@ -11,10 +11,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 public class SearchFragment extends Fragment { //조회하기 탭의 부분화면
     RecyclerView recyclerView;
     PersonAdapter adapter;
     TextView textView;
+    DBHelper dbHelper;
     public SearchFragment() {// Required empty public constructor
     }
     @Override
@@ -27,7 +29,7 @@ public class SearchFragment extends Fragment { //조회하기 탭의 부분화�
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
-
+        dbHelper = new DBHelper(getContext());
         adapter = new PersonAdapter();
         recyclerView.setAdapter(adapter);
 
@@ -35,8 +37,9 @@ public class SearchFragment extends Fragment { //조회하기 탭의 부분화�
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { //버튼클릭하면 추가한 정보들이 나타남 update 정보 포함해주기 (db에서 가져오기)
-                adapter.addItem(new Person("지톨","010-1111-1111","한국","112"));
-                textView.setText("total : "+adapter.getItemCount()+" 명");
+                ArrayList<Person> result = dbHelper.selectAll();
+                adapter.setItems(result);
+                textView.setText("Total: "+adapter.getItemCount()+" 명");
                 adapter.notifyDataSetChanged();
             }
         });

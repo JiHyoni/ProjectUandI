@@ -29,7 +29,9 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.ViewHolder
         Person item = items.get(position);
         holder.setItem(item);
     }
-
+    public void setItems(ArrayList<Person> items) {
+        this.items = items;
+    }
     @Override
     public int getItemCount() {
         return items.size(); // 생성되는 카드뷰 갯수
