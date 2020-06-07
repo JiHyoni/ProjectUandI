@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 public class MainActivity extends AppCompatActivity {
+    //Main 화면
     ImageButton button2; //돌봄리스트 = 케어링 리스트
     ImageButton button5; //영상통화
     ImageButton button4; //행사안내
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,calenderActivity.class );
+                Intent intent = new Intent(MainActivity.this,CalendarActivity.class );
                 startActivity(intent);
             }
         });

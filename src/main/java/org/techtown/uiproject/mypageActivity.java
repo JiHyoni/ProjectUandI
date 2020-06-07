@@ -1,5 +1,4 @@
 package org.techtown.uiproject;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.database.Cursor;

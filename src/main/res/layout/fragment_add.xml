@@ -13,6 +13,7 @@
         android:layout_marginLeft="140dp"
         android:layout_marginTop="50dp"
         android:text="회원 정보 입력"
+        android:textColor="#DF302E2E"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -33,6 +34,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="50dp"
                 android:text="성함"
+                android:textColor="#DF302E2E"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/editName" />
@@ -44,6 +46,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="40dp"
                 android:text="연락처"
+                android:textColor="#DF302E2E"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -53,6 +56,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="40dp"
                 android:text="주소"
+                android:textColor="#DF302E2E"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -63,6 +67,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="40dp"
                 android:text="비상연락처"
+                android:textColor="#DF302E2E"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

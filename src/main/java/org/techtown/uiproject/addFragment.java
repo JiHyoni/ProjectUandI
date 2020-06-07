@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class addFragment extends Fragment { //추가하기 탭의 부분화면
+public class addFragment extends Fragment {
+    //추가하기 탭의 부분화면
     EditText editText, editText1, editText2, editText3;
     DBHelper dbHelper;
     String name, number, address, bisang;

@@ -39,29 +39,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO MYINFO VALUES(null, '" + name + "', '" + number + "', '" + address + "','" + bisang + "');");
         db.close();
     }
-/*
-    public String getResult() {
-        // 읽기가 가능하게 DB 열기
-        SQLiteDatabase db = getReadableDatabase();
-        String result = "";
 
-        // DB에 있는 데이터를 쉽게 처리하기 위해 Cursor를 사용하여 테이블에 있는 모든 데이터 출력
-        Cursor cursor = db.rawQuery("SELECT * FROM MYINFO", null);
-        while (cursor.moveToNext()) {
-            result += cursor.getString(0)
-                    + " : "
-                    +" 이름 "
-                    + cursor.getString(1)
-                    + " 전화번호 "
-                    + cursor.getString(2)
-                    + " 주소 "
-                    + cursor.getString(3)
-                    + " 비상 연락처"
-                    + cursor.getString(4)
-                    + "\n";
-        }
-        return result;
-    }*/
 public ArrayList<Person> selectAll() {
     // 읽기가 가능하게 DB 열기
     SQLiteDatabase db = getReadableDatabase();
