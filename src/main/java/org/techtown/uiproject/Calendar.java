@@ -34,7 +34,7 @@ public class Calendar extends Fragment {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int dayOfMonth) {
                 final EditText edittext = new EditText(getContext());
-                ad.setTitle(year+"년 "+month+"월 "+dayOfMonth+"일 " );
+                ad.setTitle(year+"년 "+(month+1)+"월 "+dayOfMonth+"일 " );
                 ad.setMessage("일정을 추가해주세요! ");
                 ad.setView(edittext);
                 date = year + "년 " + (month + 1) + "월 " + dayOfMonth +"일";
