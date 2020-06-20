@@ -16,13 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="402dp"
             android:background="?attr/colorBackgroundFloating"
+
             android:backgroundTint="#00FD0C0C"
             android:dateTextAppearance="@style/TextAppearance.AppCompat.Body2"
             android:descendantFocusability="afterDescendants"
             android:minDate="05/01/2020"
-            android:selectedDateVerticalBar="@drawable/blue"
-            android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:weekNumberColor="@color/colorSplash" />
+            android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
         <TextView
             android:id="@+id/textView2"
