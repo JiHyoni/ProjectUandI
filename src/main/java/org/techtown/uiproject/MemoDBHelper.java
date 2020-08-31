@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import java.sql.Date;
 import java.util.ArrayList;
 
 public class MemoDBHelper  extends SQLiteOpenHelper {
@@ -12,7 +13,7 @@ public class MemoDBHelper  extends SQLiteOpenHelper {
     private static final int DB_VERSION=1;
     private static final String DB_NAME="MEMO.db";
     public Context context;
-
+    SQLiteDatabase db;
     // 테이블을 생성하는 구문
     public MemoDBHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);
@@ -32,17 +33,25 @@ public class MemoDBHelper  extends SQLiteOpenHelper {
 
     public void insert(String Date, String contents) {
         // 읽고 쓰기가 가능하게 DB 열기
-        SQLiteDatabase db = this.getWritableDatabase();
+        db = this.getWritableDatabase();
         // DB에 입력한 값으로 행 추가
         db.execSQL("INSERT INTO MEMO VALUES(null, '" + Date + "', '" + contents + "');");
-       // db.close();
+        db.close();
     }
+
+    public void delete(String Date, String contents){
+        db = this.getWritableDatabase();
+        db.execSQL("DELETE FROM MEMO WHERE Date='" + Date + "', contents'" + contents + "');");
+        db.close();
+    }
+
     public ArrayList<Info> selectAll() {
         // 읽기가 가능하게 DB 열기
         SQLiteDatabase db = getReadableDatabase();
         ArrayList<Info> result_1 = new ArrayList<Info>();
 
         // DB에 있는 데이터를 쉽게 처리하기 위해 Cursor를 사용하여 테이블에 있는 모든 데이터 출력
+        // Date.valueOf()
         Cursor cursor = db.rawQuery("SELECT date, contents FROM MEMO", null);
         for (int i = 0; i < cursor.getCount(); i++) {
             cursor.moveToNext();
@@ -51,7 +60,6 @@ public class MemoDBHelper  extends SQLiteOpenHelper {
             Info info = new Info(date, contents);
             result_1.add(info);
         }
-
         return result_1;
     }
 

@@ -4,9 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import java.util.ArrayList;
 
 public class CalendarAdapter extends FragmentPagerAdapter {
     int tabnumber;
+    ArrayList<Info> items = new ArrayList<>();
     public CalendarAdapter(FragmentManager fm, int behavior) {
         super(fm, behavior);
         this.tabnumber = behavior;
@@ -30,4 +32,5 @@ public class CalendarAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return tabnumber;
     }
+
 }
