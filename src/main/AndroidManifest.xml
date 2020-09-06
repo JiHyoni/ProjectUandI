@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_img_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CalendarActivity"></activity>
-        <activity android:name=".mypageActivity" />
-        <activity android:name=".DashBoard" />
-        <activity android:name=".Register" />
-        <activity android:name=".eventActivity" />
-        <activity android:name=".videocallActivity" />
-        <activity android:name=".caringlistActivity" />
+        <activity android:name=".calendar.CalendarActivity"></activity>
+        <activity android:name=".mypage.mypageActivity" />
+        <activity android:name=".mypage.DashBoard" />
+        <activity android:name=".mypage.Register" />
+        <activity android:name=".soslist.SosListActivity" />
+        <activity android:name=".caringlist.caringlistActivity" />
+        <activity android:name=".cameralist.CameraListActivity" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Splash">

@@ -7,6 +7,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
+
+import org.techtown.uiproject.calendar.CalendarActivity;
+import org.techtown.uiproject.cameralist.CameraListActivity;
+import org.techtown.uiproject.caringlist.caringlistActivity;
+import org.techtown.uiproject.mypage.mypageActivity;
+import org.techtown.uiproject.soslist.SosListActivity;
+
 public class MainActivity extends AppCompatActivity {
     //Main 화면
     ImageButton button2; //돌봄리스트 = 케어링 리스트
@@ -44,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,caringlistActivity.class );
+                Intent intent = new Intent(MainActivity.this, caringlistActivity.class );
                 startActivity(intent);
             }
         });
@@ -54,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,videocallActivity.class );
+                Intent intent = new Intent(MainActivity.this, SosListActivity.class );
                 startActivity(intent);
             }
 
@@ -64,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,eventActivity.class );
+                Intent intent = new Intent(MainActivity.this, CameraListActivity.class );
                 startActivity(intent);
             }
         });
@@ -74,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,CalendarActivity.class );
+                Intent intent = new Intent(MainActivity.this, CalendarActivity.class );
                 startActivity(intent);
             }
         });
