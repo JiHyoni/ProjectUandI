@@ -1,7 +1,13 @@
 package org.techtown.uiproject;
 import androidx.appcompat.widget.Toolbar;
+
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.graphics.Color;
 import android.os.Build;
+import android.util.Base64;
+import android.util.Log;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,6 +19,8 @@ import org.techtown.uiproject.cameralist.CameraListActivity;
 import org.techtown.uiproject.caringlist.caringlistActivity;
 import org.techtown.uiproject.mypage.mypageActivity;
 import org.techtown.uiproject.soslist.SosListActivity;
+
+import java.security.MessageDigest;
 
 public class MainActivity extends AppCompatActivity {
     //Main 화면
@@ -28,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main); //R 은 리소스 아래 layout 에 activitymain 이 있다
         Toolbar toolbar =findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        // getAppKeyHash();
         //상태바를 하얀색으로 설정해주는 코드
         if(Build.VERSION.SDK_INT >= 21){
             getWindow().setStatusBarColor(Color.rgb(0,0,0));
@@ -85,5 +93,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
     }

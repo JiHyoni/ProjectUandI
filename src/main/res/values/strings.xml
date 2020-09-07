@@ -5,6 +5,6 @@
     <string name="strBtn2">영상통화</string>
     <string name="strBtn3">행사안내</string>
     <string name="strBtn4">캘린더</string>
-
+    <string name="kakao_app_key">1c413ddc58e696ba8438ad21a33818d6</string>
 
 </resources>
