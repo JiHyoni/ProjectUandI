@@ -28,6 +28,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'org.jsoup:jsoup:1.13.1'
     implementation group: project.KAKAO_SDK_GROUP, name: 'usermgmt', version: project.KAKAO_SDK_VERSION
 
 }
