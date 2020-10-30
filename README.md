@@ -19,6 +19,8 @@
 
 ### App ) 
 
+<img src="https://user-images.githubusercontent.com/48972530/97716376-e3c4a080-1b06-11eb-98f9-a549cc36d3c9.png"  width="250" height="460">
+
 - 독거노인 (회원) 관리
 
 <img src="https://user-images.githubusercontent.com/48972530/97715281-88de7980-1b05-11eb-93e7-96f555e4967d.png"  width="250" height="460"><img src="https://user-images.githubusercontent.com/48972530/97715271-867c1f80-1b05-11eb-8a69-d42cfe05ed28.png"  width="250" height="460">
