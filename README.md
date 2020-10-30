@@ -10,15 +10,6 @@
 
 <img src="https://user-images.githubusercontent.com/48972530/97690980-165ba280-1ae1-11eb-9745-7508c83aa112.jpg"  width="500" height="500">
 
-### HW 1) Arduino
-
-<img src="https://user-images.githubusercontent.com/48972530/97693423-80297b80-1ae4-11eb-9ffd-e139cf720a66.PNG"  width="400" height="420"><img src="https://user-images.githubusercontent.com/48972530/97692639-5facf180-1ae3-11eb-9185-99711f0648ea.png"  width="400" height="450">
-
-
-### HW 2) Raspberry Pi
-
-<img src="https://user-images.githubusercontent.com/48972530/97726519-a2d28900-1b12-11eb-9e46-60ee71333ccc.png"  width="400" height="450">
-
 
 ### App ) 
 
