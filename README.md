@@ -17,6 +17,9 @@
 
 ### HW 2) Raspberry Pi
 
+<img src="https://user-images.githubusercontent.com/48972530/97726519-a2d28900-1b12-11eb-9e46-60ee71333ccc.png"  width="400" height="450">
+
+
 ### App ) 
 
 - 메인 화면 
