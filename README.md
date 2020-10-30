@@ -7,5 +7,12 @@
 
 <img src="https://user-images.githubusercontent.com/48972530/97690980-165ba280-1ae1-11eb-9745-7508c83aa112.jpg"  width="500" height="500">
 
+### HW 1) Arduino
+
+### HW 2) Raspberry Pi
+
+### App ) 
+
+
 #### UandI_HW ) Arduino, Raspberry Pi
 #### src ) Android App 
