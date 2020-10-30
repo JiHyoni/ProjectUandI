@@ -17,6 +17,9 @@
 ### App ) 
 - 독거노인 (회원) 관리
 - 캘린더
+
+<img src="https://user-images.githubusercontent.com/48972530/91518252-d0d8f880-e92a-11ea-98ec-1e44e047692e.png"  width="250" height="460">   <img src="https://user-images.githubusercontent.com/48972530/91518634-b18e9b00-e92b-11ea-816e-3ae76fdd48fb.png"  width="250" height="460"><img src="https://user-images.githubusercontent.com/48972530/91518511-67a5b500-e92b-11ea-8b11-132a866fd274.png"  width="250" height="460">
+
 - SOS 내역
 
 
