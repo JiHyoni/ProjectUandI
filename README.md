@@ -9,7 +9,7 @@
 
 ### HW 1) Arduino
 
-<img src="https://user-images.githubusercontent.com/48972530/97692639-5facf180-1ae3-11eb-9185-99711f0648ea.png"  width="400" height="450">
+<img src="https://user-images.githubusercontent.com/48972530/97693423-80297b80-1ae4-11eb-9ffd-e139cf720a66.PNG"  width="400" height="420"><img src="https://user-images.githubusercontent.com/48972530/97692639-5facf180-1ae3-11eb-9185-99711f0648ea.png"  width="400" height="450">
 
 
 ### HW 2) Raspberry Pi
