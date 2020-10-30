@@ -9,9 +9,16 @@
 
 ### HW 1) Arduino
 
+<img src="https://user-images.githubusercontent.com/48972530/97692639-5facf180-1ae3-11eb-9185-99711f0648ea.png"  width="400" height="450">
+
+
 ### HW 2) Raspberry Pi
 
 ### App ) 
+- 독거노인 (회원) 관리
+- 캘린더
+- SOS 내역
+
 
 
 #### UandI_HW ) Arduino, Raspberry Pi
