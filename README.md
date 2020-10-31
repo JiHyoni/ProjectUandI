@@ -25,7 +25,7 @@
 
 <img src="https://user-images.githubusercontent.com/48972530/91518252-d0d8f880-e92a-11ea-98ec-1e44e047692e.png"  width="250" height="460">   <img src="https://user-images.githubusercontent.com/48972530/91518634-b18e9b00-e92b-11ea-816e-3ae76fdd48fb.png"  width="250" height="460"><img src="https://user-images.githubusercontent.com/48972530/91518511-67a5b500-e92b-11ea-8b11-132a866fd274.png"  width="250" height="460">
 
-- 온습도 그래프 , SOS 내역 
+- 온습도 그래프 , SOS 내역 , 카메라 내역
 
-<img src="https://user-images.githubusercontent.com/48972530/97778941-1da4ae00-1bbe-11eb-8c40-b268fa5aa7cd.png"  width="250" height="460"><img src="https://user-images.githubusercontent.com/48972530/97715286-8a0fa680-1b05-11eb-9aaf-f3badac533b1.png"  width="250" height="460">
+<img src="https://user-images.githubusercontent.com/48972530/97778941-1da4ae00-1bbe-11eb-8c40-b268fa5aa7cd.png"  width="250" height="450"><img src="https://user-images.githubusercontent.com/48972530/97715286-8a0fa680-1b05-11eb-9aaf-f3badac533b1.png"  width="250" height="460">
 
