@@ -15,6 +15,6 @@
 
 ## Raspberry Pi
 : 독거노인의 집에서 사용할 하드웨어 (카메라 & 온습도 센서) 
-- Pi Camera : 
+- Pi Camera : 노인의 집 안에 부착된 카메라를 통해 노인의 낙상 사태가 발생 시, 사회복지사의 앱으로 촬영본과 시간이 전송된다.
 - Temperature & Humidity Sensor: 집 안의 온도와 습도를 30분마다 측정해주며 측정된 데이터들은 Firebase RealtimeDataBase 에 저장된다.
 <img src="https://user-images.githubusercontent.com/48972530/97726519-a2d28900-1b12-11eb-9e46-60ee71333ccc.png"  width="400" height="450"><img src="https://user-images.githubusercontent.com/48972530/97727580-ed083a00-1b13-11eb-8087-94f67bb82191.png"  width="400" height="450">
