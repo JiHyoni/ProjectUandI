@@ -27,5 +27,6 @@
 
 - 온습도 그래프 , SOS 내역 
 
+<img src="https://user-images.githubusercontent.com/48972530/97778941-1da4ae00-1bbe-11eb-8c40-b268fa5aa7cd.png"  width="250" height="460">
 <img src="https://user-images.githubusercontent.com/48972530/97715286-8a0fa680-1b05-11eb-9aaf-f3badac533b1.png"  width="250" height="460">
 
