@@ -11,7 +11,7 @@
 - sos.py 아두이노에서 버튼이 눌렸을 때 pySerial 을 통한 MySQL 로 데이터가 저장된다. 
 - sos.ino 에서는 버튼 연결과 버튼이 눌렸을 때 경보음을 울려주는 코드이다. 
 - sos_button.ino 에서 와이파이 통신을 통해 앱에 푸시알림 (+ pushing box & pushbullet) 을 준다.
-<img src="https://user-images.githubusercontent.com/48972530/97693423-80297b80-1ae4-11eb-9ffd-e139cf720a66.PNG"  width="400" height="420"><img src="https://user-images.githubusercontent.com/48972530/97692639-5facf180-1ae3-11eb-9185-99711f0648ea.png"  width="400" height="450">
+<img src="https://user-images.githubusercontent.com/48972530/97693423-80297b80-1ae4-11eb-9ffd-e139cf720a66.PNG"  width="400" height="420"><img src="https://user-images.githubusercontent.com/48972530/97779186-d0c1d700-1bbf-11eb-9535-aacdd2973d6e.jpg"  width="400" height="450">
 
 ## Raspberry Pi
 : 독거노인의 집에서 사용할 하드웨어 (카메라 & 온습도 센서) 
