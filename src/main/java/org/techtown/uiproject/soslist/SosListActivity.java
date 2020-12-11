@@ -19,7 +19,7 @@ import java.io.IOException;
 public class SosListActivity extends AppCompatActivity {
     TextView tv_sos;
     Button btn_sos;
-    String url = "http://192.168.2.210:8090/jspbook/jspbook/sos/main.jsp"; // ip주소 실행환경에 맞게 계속 변경해줘야됨 ... 이건 누구나
+    String url = "0/jspbook/jspbook/sos/main.jsp"; // ip주소 실행환경에계속 변경해줘야됨
     String msg ;
     final Bundle bundle = new Bundle();
 
