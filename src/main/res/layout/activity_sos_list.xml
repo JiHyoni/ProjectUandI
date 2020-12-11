@@ -43,7 +43,7 @@
                 android:id="@+id/tv_sos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="sos 내역"
+                android:text=" "
                 android:textColor="@color/design_default_color_on_secondary"
                 android:textSize="19sp" />
         </LinearLayout>
