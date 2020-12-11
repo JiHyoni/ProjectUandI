@@ -6,28 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".soslist.SosListActivity">
-    <LinearLayout
-        android:layout_width="wrap_content"
+
+
+    <Button
+        android:id="@+id/btn_sos"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="89dp"
-            android:layout_height="65dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/sosimg" />
-
-        <Button
-            android:id="@+id/btn_sos"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="sos 내역 확인" />
-
-    </LinearLayout>
+        android:backgroundTint="#FFE57F"
+        android:text="sos 내역 확인" />
 
 
     <ScrollView
