@@ -1,33 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.techtown.uiproject">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name=".mypage.GlobalApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_img"
-        android:name=".mypage.GlobalApplication"
         android:label="UandI"
         android:roundIcon="@mipmap/ic_img_round"
         android:supportsRtl="true"
+        android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-        android:theme="@style/AppTheme">
+        android:windowSoftInputMode="adjustResize">
+        <activity android:name=".cameralist.HumidityActivity"></activity>
+
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="@string/kakao_app_key"  />
-        <activity android:name=".calendar.CalendarActivity"></activity>
+            android:value="@string/kakao_app_key" />
+
+        <activity android:name=".calendar.CalendarActivity" />
         <activity android:name=".mypage.mypageActivity" />
         <activity android:name=".mypage.DashBoard" />
         <activity android:name=".mypage.Register" />
         <activity android:name=".soslist.SosListActivity" />
         <activity android:name=".caringlist.caringlistActivity" />
         <activity android:name=".cameralist.CameraListActivity" />
-        <activity android:name=".mypage.GlobalApplication"/>
-        <activity android:name=".mypage.SessionCallback"/>
+        <activity android:name=".cameralist.TemperatureActivity" />
+        <activity android:name=".mypage.GlobalApplication" />
+        <activity android:name=".mypage.SessionCallback" />
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

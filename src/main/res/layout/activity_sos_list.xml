@@ -13,10 +13,10 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/sos" />
+            android:layout_width="89dp"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sosimg" />
 
         <Button
             android:id="@+id/btn_sos"
@@ -26,6 +26,7 @@
             android:layout_marginBottom="10dp"
             android:background="@color/colorPrimaryDark"
             android:text="sos 내역 확인" />
+
     </LinearLayout>
 
 
@@ -42,9 +43,9 @@
                 android:id="@+id/tv_sos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="19sp"
                 android:text="sos 내역"
-                 />
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="19sp" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

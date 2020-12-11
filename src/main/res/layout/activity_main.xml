@@ -19,7 +19,7 @@
         android:layout_height="300dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:background="@drawable/livetogether"
+        android:background="@drawable/livetogether1"
         app:layout_constraintHorizontal_bias="0.585"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

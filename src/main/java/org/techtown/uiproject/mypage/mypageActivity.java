@@ -15,12 +15,11 @@ import com.kakao.auth.AuthType;
 import com.kakao.auth.Session;
 import com.kakao.usermgmt.LoginButton;
 
+import org.techtown.uiproject.MainActivity;
 import org.techtown.uiproject.R;
 
 public class mypageActivity extends AppCompatActivity {
-    private LoginButton btn_login;
-    Session session;
-    private SessionCallback sessionCallback = new SessionCallback();
+
     Button LogInButton, RegisterButton ;
     EditText Email, Password ;
     String EmailHolder, PasswordHolder;
@@ -42,16 +41,6 @@ public class mypageActivity extends AppCompatActivity {
         Password = (EditText)findViewById(R.id.editPassword);
         memberOpenHelper = new MemberOpenHelper(this);
 
-        btn_login = findViewById(R.id.login);
-        session = Session.getCurrentSession();
-        session.addCallback(sessionCallback);
-
-        btn_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                session.open(AuthType.KAKAO_LOGIN_ALL, mypageActivity.this);
-            }
-        });
         //버튼에 클릭 이벤트주기 & 로그
         LogInButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -138,7 +127,7 @@ public class mypageActivity extends AppCompatActivity {
         {
             Toast.makeText(getApplicationContext(),"로그인 성공!",Toast.LENGTH_LONG).show();
             //로그인 성공과 동시에 dash로 이동
-            Intent intent = new Intent(getApplicationContext(), DashBoard.class);
+            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             //DashBoard 액티비티에 인텐트사용을 알려줌
             intent.putExtra(UserEmail, EmailHolder);
             startActivity(intent);
@@ -149,21 +138,7 @@ public class mypageActivity extends AppCompatActivity {
         }
         TempPassword = "미가입입니다." ;
     }
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        // 세션 콜백 삭제
-        Session.getCurrentSession().removeCallback(sessionCallback);
-    }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        // 카카오톡|스토리 간편로그인 실행 결과를 받아서 SDK로 전달
-        if (Session.getCurrentSession().handleActivityResult(requestCode, resultCode, data)) {
-            return;
-        }
-        super.onActivityResult(requestCode, resultCode, data);
-    }
 
 
 }

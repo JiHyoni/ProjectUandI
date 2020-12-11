@@ -2,7 +2,7 @@
 <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="70dp"
+    android:layout_height="wrap_content"
     android:background="@color/colorPrimary"
     android:elevation="4dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -11,19 +11,18 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
+        android:background="@drawable/toolbarimg5"
         android:layout_gravity="center"
-        android:background="@drawable/toolbarimg" />
+        />
 
 
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="80dp"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_centerVertical="true"
         android:layout_gravity="right"
         android:background="@drawable/mypagebtn1"
         />
-
-
 </androidx.appcompat.widget.Toolbar>
