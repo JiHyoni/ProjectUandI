@@ -36,8 +36,13 @@ public class TemperatureActivity extends AppCompatActivity {
 
         // black lines and points
         set1.setColor(Color.RED);
-        set1.setCircleColor(Color.BLACK);
-        set1.setLineWidth(2);
+        set1.setCircleColor(Color.parseColor("#FFFF8A80"));
+        set1.setLineWidth(1);
+        set1.setDrawCircleHole(true);
+        set1.setDrawCircles(true);
+        set1.setCircleRadius(5);
+        set1.setCircleHoleColor(Color.RED);
+        set1.setValueTextSize(12f);
         // set data
         chart.setData(data);
     }

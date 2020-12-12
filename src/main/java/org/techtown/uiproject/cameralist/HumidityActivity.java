@@ -30,7 +30,7 @@ public class HumidityActivity extends AppCompatActivity {
         }
 
         LineDataSet set1;
-        set1 = new LineDataSet(values, "습도 (%)");
+        set1 = new LineDataSet(values, "습도 (%) (*적정습도: 40-60%) ");
         ArrayList<ILineDataSet> dataSets = new ArrayList<>();
         dataSets.add(set1); // add the data sets
         // create a data object with the data sets
@@ -38,8 +38,13 @@ public class HumidityActivity extends AppCompatActivity {
 
         // black lines and points
         set1.setColor(Color.BLUE);
-        set1.setCircleColor(Color.BLACK);
-        set1.setLineWidth(2);
+        set1.setCircleColor(Color.parseColor("#FFA1B4DC"));
+        set1.setLineWidth(1);
+        set1.setDrawCircleHole(true);
+        set1.setDrawCircles(true);
+        set1.setCircleRadius(5);
+        set1.setCircleHoleColor(Color.BLUE);
+        set1.setValueTextSize(12f);
         // set data
         chart.setData(data);
     }

@@ -13,4 +13,5 @@
     <color name="today">#CDDC39</color>
     <color name="darkYellow">#F4EB95</color>
     <color name="tab">#FF434340</color>
+    <color name="temp_graph">#FFFF8A80</color>
 </resources>
