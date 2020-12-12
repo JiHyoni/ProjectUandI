@@ -39,7 +39,7 @@ public class HumidityActivity extends AppCompatActivity {
         // black lines and points
         set1.setColor(Color.BLUE);
         set1.setCircleColor(Color.BLACK);
-
+        set1.setLineWidth(2);
         // set data
         chart.setData(data);
     }
