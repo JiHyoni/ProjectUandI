@@ -5,6 +5,8 @@ import android.graphics.Color;
 import android.os.Bundle;
 import org.techtown.uiproject.R;
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.components.YAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -43,6 +45,14 @@ public class TemperatureActivity extends AppCompatActivity {
         set1.setCircleRadius(5);
         set1.setCircleHoleColor(Color.RED);
         set1.setValueTextSize(12f);
+
+        XAxis xAxis = chart.getXAxis();
+        xAxis.setPosition(XAxis.XAxisPosition.BOTTOM);
+
+        YAxis yAxis = chart.getAxisRight();
+        yAxis.setDrawLabels(false);
+        yAxis.setDrawAxisLine(false);
+        yAxis.setDrawGridLines(false);
         // set data
         chart.setData(data);
     }
