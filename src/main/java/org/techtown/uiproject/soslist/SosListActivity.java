@@ -19,7 +19,7 @@ import java.io.IOException;
 public class SosListActivity extends AppCompatActivity {
     TextView tv_sos;
     Button btn_sos;
-    String url = "http://192.168.35.57:8090/jspbook/jspbook/sos/main.jsp";
+    String url = "";
     String msg ;
     final Bundle bundle = new Bundle();
 
