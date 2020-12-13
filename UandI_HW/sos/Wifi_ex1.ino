@@ -1,9 +1,7 @@
 /*
- WiFiEsp test: BasicTest
- 
- Performs basic connectivity test and checks.
+ WiFiEsp test
 */
-/* 두번째 실행 */
+
 #include "WiFiEsp.h"
 
 // Emulate Serial1 on pins 7/6 if not present
