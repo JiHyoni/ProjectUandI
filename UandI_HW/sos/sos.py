@@ -4,7 +4,7 @@ import datetime
 import pymysql
 
 ser=serial.Serial('COM3',9600)
-conn = pymysql.connect(host='localhost', user='user1', password='98765',
+conn = pymysql.connect(host='localhost', user='user1', password='',
                        db='testmydb',charset='utf8');
 cursor = conn.cursor()
 
