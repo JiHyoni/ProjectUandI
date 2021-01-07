@@ -3,6 +3,9 @@
 #### UandI_HW ) Arduino, Raspberry Pi
 #### src ) Android App 
 
+
+<img src="https://user-images.githubusercontent.com/48972530/103906782-bb2ed780-5143-11eb-9a1c-7c2690ab9e27.PNG"  width="250" height="460">
+
 ● 열악한 노동환경에 처한 사회복지사의 처우 개선에 도움을 줄 수 있으며 독거노인의 고독사를 줄이는데 도움을 줄 수 있는 애플리케이션과 IoT이다. 
 
 ● 개발배경 및 필요성
