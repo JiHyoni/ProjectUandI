@@ -1,3 +1,7 @@
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Java-90090BB?style=flat-square&logo=Java&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/C++-0290CF?style=flat-square&logo=C&logoColor=white"/></a>
+
 ## 사회복지사와 독거노인을 위한 IoT 
 
 #### UandI_HW ) Arduino, Raspberry Pi
